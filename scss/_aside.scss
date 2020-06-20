@@ -1,0 +1,40 @@
+.aside {
+    padding-left: $padding-sides;
+
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+
+    &__bar {
+        width: 1px;
+        height: 90%;
+        background-color: black;
+    }
+    ul {
+        list-style: none;
+        padding-top: 2vh;
+        li {
+            display: flex; 
+            flex-direction: row;
+            // justify-content: space-between;
+            padding-right: 3vw;
+            a {
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin-bottom: 2vh;
+                color: black;   
+                p {
+
+                }
+                img {
+                    margin-left: 2vw;
+                    width: auto;
+                    height: 20px;
+                }
+            }
+            
+        }
+    }
+}
