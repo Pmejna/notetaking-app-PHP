@@ -28,12 +28,12 @@ class Controller {
                 $created = false;   
             
                 if (!empty($data)) {
+                    $created = true;
                     $viewParams = [
                         'title' => $data['title'],
                         'description' => $data['description']
                     ];
-                    $created = true;
-                    $viewParams['created'] = $created;
+                    //logic
                 }
                 $viewParams['created'] = $created;
             break;
